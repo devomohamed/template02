@@ -977,6 +977,9 @@ body {
     .container {
         max-width: 540px;
     }
+    .popup-box img {
+        width: 350px;
+    }
 }
 
 @media (min-width: 768px) {
@@ -999,9 +1002,25 @@ body {
         max-width: 1140px;
     }
 }
+
+@media(max-width: 575px) {
+    .popup-box img {
+        width: 350px;
+    }
+}
+
+@media (min-width: 575px) and (max-width: 1200px) {
+    .popup-box img {
+        width: 500px;
+    }
+}
+
 @media (max-width: 375px) {
     .container {
         max-width: 320px;
+    }
+    .popup-box img {
+        width: 260px;
     }
 }
 
